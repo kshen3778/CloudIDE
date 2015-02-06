@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>ACE in Action</title>
-<style type="text/css" media="screen">
-    #editor { 
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-</style>
+	<title>ACE in Action</title>
+		<link rel='test' type='text/css' href='test.css'/>
+        <script type='text/javascript' src='script.js'></script>
+	<style type="text/css" media="screen">
+		#editor { 
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+	</style>
 </head>
 <body>
 
@@ -24,6 +26,9 @@
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/javascript");
+	var code = editor.getValue();
+	eval(code);
 </script>
+<div></div>
 </body>
 </html>

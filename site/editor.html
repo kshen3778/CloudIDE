@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
 	<title>ACE in Action</title>
-		<link rel='test' type='text/css' href='test.css'/>
-        <script type='text/javascript' src='script.js'></script>
 	<style type="text/css" media="screen">
 		#editor { 
 			position: absolute;
@@ -26,9 +24,16 @@
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/javascript");
-	var code = editor.getValue();
-	eval(code);
+	
+	editor.commands.addCommand({
+    name: 'myCommand',
+    bindKey: {win: 'Ctrl-M',  mac: 'Command-M'},
+    exec: function(editor) {
+        var code = editor.getValue();
+		eval(code);
+    },
+    readOnly: true // false if this command should not apply in readOnly mode
+});
 </script>
-<div></div>
 </body>
 </html>

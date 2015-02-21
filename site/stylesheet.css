@@ -9,7 +9,7 @@ fieldset{
 text-align:center;
 }
 p{
-text-align: center; color: #29a3cc; padding-bottom: 6em;
+text-align: center; color: #29a3cc; margin-bottom: 6em;
 }
 body{
 background-color: #F5F0d1;
@@ -20,4 +20,13 @@ background-color: #F5F0d1;
     background-color: #dedece;
 	position: fixed;
 	z-index: 0;
+}
+#SigninButton {
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #308014;
+	margin: 20px 50px 10px 5px ;
+	text-align: center;
 }

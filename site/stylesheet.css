@@ -2,7 +2,7 @@
 font-family:Verdana;
 }
 form {
-margin-top: 8.5em;
+margin-top: 1em;
 margin-left: 4em;
 }
 fieldset{
@@ -25,9 +25,12 @@ background-color: #F5F0d1;
 	background-color: #308014;
 	margin: 20px 50px 10px 5px;
 	position: absolute;
-	top:15em;
+	top:13.3em;
 }
 #Sign-in{
 background-color: white;
 padding-bottom: 3em;
+}
+div{
+    height: 6em; width: 26em; border-color:#6495ED; background-color:#BCD2EE; border-radius: 5px; padding-top: 1em;
 }

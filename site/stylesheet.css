@@ -1,15 +1,12 @@
 * {
 font-family:Verdana;
 }
-
 form {
-text-align: center;
+margin-top: 8.5em;
+margin-left: 4em;
 }
 fieldset{
 text-align:center;
-}
-p{
-text-align: center; color: #29a3cc; margin-bottom: 6em;
 }
 body{
 background-color: #F5F0d1;
@@ -18,15 +15,19 @@ background-color: #F5F0d1;
 	height: 2.5em;
 	width: 100%;
     background-color: #dedece;
-	position: fixed;
-	z-index: 0;
+	position: absolute;
+	float: top;
 }
 #SigninButton {
-	height: 50px;
-	width: 100px;
+	height: 2em;
+	width: 4em;
 	border: 2px solid black;
-	border-radius: 5px;
 	background-color: #308014;
-	margin: 20px 50px 10px 5px ;
-	text-align: center;
+	margin: 20px 50px 10px 5px;
+	position: absolute;
+	top:15em;
+}
+#Sign-in{
+background-color: white;
+padding-bottom: 3em;
 }

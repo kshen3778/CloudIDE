@@ -1,0 +1,27 @@
+<html>
+    <p>
+    <?php
+
+    
+    ?>
+    </p>
+    <p>
+    <?php
+
+    $number = 0;
+    while ($number <=100) {
+		$number = $number + 1;
+		if($number % 3 == 0 and $number % 5 == 0) {
+			echo "FizzBuzz";
+		}
+		elseif($number % 3 == 0) {
+			echo "Fizz";
+		}
+		elseif($number % 5 == 0) {
+			echo "Buzz";
+		}
+	}
+    
+    ?>
+    </p>
+</html>

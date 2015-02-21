@@ -1,0 +1,19 @@
+form {
+text-align: center; font-family: Verdana;
+}
+fieldset{
+text-align:center;
+}
+p{
+text-align: center; font-family: Verdana; color: #29a3cc; padding-bottom: 6em;
+}
+body{
+background-color: #F5F0d1;
+}
+#titleBar{
+	height: 2.5em;
+	width: 100%;
+    background-color: #dedece;
+	position: fixed;
+	z-index: 0;
+}

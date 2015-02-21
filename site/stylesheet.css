@@ -1,11 +1,15 @@
+* {
+font-family:Verdana;
+}
+
 form {
-text-align: center; font-family: Verdana;
+text-align: center;
 }
 fieldset{
 text-align:center;
 }
 p{
-text-align: center; font-family: Verdana; color: #29a3cc; padding-bottom: 6em;
+text-align: center; color: #29a3cc; padding-bottom: 6em;
 }
 body{
 background-color: #F5F0d1;

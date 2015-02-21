@@ -1,14 +1,3 @@
-<!DOCTYPE HTML>
-<html>				
-	<head>
-		<title>Sign-In</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		</head>
-		<body>
-			<div id="titleBar">
-			</div>
-				<p><strong>Login</strong></p>
-				<div>
 					<?php
 					session_start(); //start the session for user profile page
 
@@ -45,7 +34,3 @@
 						SignIn($con);
 					}
 					?>
-				</div>
-				
-	</body>			
-</html>

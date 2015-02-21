@@ -21,10 +21,10 @@
 
 					$db = mysqli_select_db($con,DB_NAME) or die(mysqli_connect_error()); 
 
-					/*
-					$ID = $_POST['user'];
-					$Password = $_POST['pass'];
-					*/
+					
+					/*$ID = $_POST['user'];
+					$Password = $_POST['pass'];*/
+					
 					function SignIn(mysqli $con){
 						if(!empty($_POST['user'])){ //checking the 'user' name which is from Sign-in.html, is it empty or have some text
 							$query = mysqli_query($con,"SELECT * FROM UserName where userName = '$_POST[user]' AND pass = '$_POST[pass]'") or die(mysqli_connect_error());

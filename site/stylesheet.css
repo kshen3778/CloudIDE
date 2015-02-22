@@ -14,12 +14,6 @@ background-color: #Ff6600;
 p{
 text-align: center;
 }
-#codecacheLogo{
-position: absolute;
-top: 3em;
-left: 28em;
-border-radius: 5px;
-}
 #titleBar{
 	height: 2.5em;
 	width: 150em;

@@ -9,28 +9,32 @@ fieldset{
 text-align:center;
 }
 body{
-background-color: #F5F0d1;
+background-color: #Ff6600;
+}
+p{
+text-align: center;
 }
 #titleBar{
 	height: 2.5em;
-	width: 100%;
-    background-color: #dedece;
+	width: 150em;
+    background-color: #33ccff;
 	position: absolute;
-	float: top;
+	top:0em;
+	right:0em;
 }
 #SigninButton {
 	height: 2em;
-	width: 4em;
+	width: 25em;
 	border: 2px solid black;
 	background-color: #308014;
 	margin: 20px 50px 10px 5px;
 	position: absolute;
-	top:13.3em;
+	top:7.5em;
 }
 #Sign-in{
 background-color: white;
 padding-bottom: 3em;
 }
 div{
-    height: 6em; width: 26em; border-color:#6495ED; background-color:#BCD2EE; border-radius: 5px; padding-top: 1em;
+    height: 6em; width: 30em; border-color:#6495ED; background-color:#BCD2EE; border-radius: 5px; padding-top: 1em;position: absolute; top: 15em; right: 6em;
 }

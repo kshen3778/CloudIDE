@@ -9,32 +9,28 @@ fieldset{
 text-align:center;
 }
 body{
-background-color: #Ff6600;
-}
-p{
-text-align: center;
+background-color: #F5F0d1;
 }
 #titleBar{
 	height: 2.5em;
-	width: 150em;
-    background-color: #33ccff;
+	width: 100%;
+    background-color: #dedece;
 	position: absolute;
-	top:0em;
-	right:0em;
+	float: top;
 }
 #SigninButton {
 	height: 2em;
-	width: 25em;
+	width: 4em;
 	border: 2px solid black;
 	background-color: #308014;
 	margin: 20px 50px 10px 5px;
 	position: absolute;
-	top:7.5em;
+	top:13.3em;
 }
 # log{
     height: 6em; width: 30em; border-color:#6495ED; background-color:#BCD2EE; border-radius: 5px; padding-top: 1em; position: absolute; top: 16em; right: 6em; background-color: white;
 padding-bottom: 3em;
 }
 #logo{
-position: absolute; top: 5em; right: 30 em;
+position: absolute; top: 5em; right: 10 em;
 }

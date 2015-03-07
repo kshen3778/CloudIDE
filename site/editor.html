@@ -19,13 +19,13 @@
     return x;
 }</div>
     
-<script src="../editor/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="../editor/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script> //refers to the ace folder and resources
 <script>
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/javascript");
 	
-	editor.commands.addCommand({
+	editor.commands.addCommand({ //run the code with CTRL-M
     name: 'myCommand',
     bindKey: {win: 'Ctrl-M',  mac: 'Command-M'},
     exec: function(editor) {

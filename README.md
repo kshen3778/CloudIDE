@@ -1,2 +1,2 @@
 # CloudIDE
-Cloud IDE development
+Testing the implementation of the Ace Code Editor in a webpage
